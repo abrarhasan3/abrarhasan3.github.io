@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abrar Hasan — Lecturer at Green University of Bangladesh. Researcher in Lightweight Cryptography, IoT, and Machine Learning." />
+  <meta name="author" content="Abrar Hasan" />
+  <title>Abrar Hasan — Lecturer · Researcher · Debater</title>
+
+  <!-- Favicon (inline SVG, no external file needed) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22serif%22 font-weight=%22900%22 fill=%22%23C8442A%22>A</text></svg>" />
+
+  <!-- Fonts: Fraunces (serif display) + JetBrains Mono + Inter for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,30..100;1,9..144,300..900,30..100&family=JetBrains+Mono:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Grain overlay for texture -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- Top navigation -->
+  <nav class="nav">
+    <a href="#top" class="nav-logo">
+      <span class="logo-mark">AH</span>
+      <span class="logo-divider"></span>
+      <span class="logo-text">Abrar Hasan</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about" data-section="01">About</a></li>
+      <li><a href="#research" data-section="02">Research</a></li>
+      <li><a href="#teaching" data-section="03">Teaching</a></li>
+      <li><a href="#projects" data-section="04">Projects</a></li>
+      <li><a href="#contact" data-section="05">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle theme" id="themeToggle">
+      <span class="toggle-track"><span class="toggle-thumb"></span></span>
+    </button>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header id="top" class="hero">
+    <div class="hero-marker">
+      <span class="marker-dot"></span>
+      <span class="marker-text">Currently · Lecturer @ Green University of Bangladesh</span>
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="hero-meta">EST. 1998 · DHAKA, BANGLADESH</p>
+        <h1 class="hero-title">
+          <span class="line">
+            <span class="word">Abrar</span>
+            <span class="word"><em>Hasan</em></span>
+          </span>
+          <span class="line">
+            <span class="word small">teaches,</span>
+            <span class="word small">researches,</span>
+          </span>
+          <span class="line">
+            <span class="word small">&amp;</span>
+            <span class="word small italic">debates.</span>
+          </span>
+        </h1>
+
+        <p class="hero-sub">
+          A lecturer in Software Engineering, researcher in lightweight cryptography &amp; IoT security, and former president of the KUET Debating Society — turning hard ideas into approachable lessons, one classroom and YouTube video at a time.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#research" class="btn btn-primary">
+            <span>See the research</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Quick facts">
+        <div class="card-corner tl"></div>
+        <div class="card-corner tr"></div>
+        <div class="card-corner bl"></div>
+        <div class="card-corner br"></div>
+
+        <div class="card-header">
+          <span class="card-dot red"></span>
+          <span class="card-dot amber"></span>
+          <span class="card-dot green"></span>
+          <span class="card-title">~/abrar/about.txt</span>
+        </div>
+
+        <div class="card-body">
+          <p><span class="key">role</span><span class="val">Lecturer + Program Coordinator</span></p>
+          <p><span class="key">dept</span><span class="val">Software Engineering, GUB</span></p>
+          <p><span class="key">degree</span><span class="val">MSc CSE @ BUET (ongoing)</span></p>
+          <p><span class="key">prior</span><span class="val">BSc CSE @ KUET · CGPA 3.64</span></p>
+          <p><span class="key">focus</span><span class="val">IoT Security · Cryptography · ML</span></p>
+          <p><span class="key">papers</span><span class="val">1 Journal (IEEE Access) · 1 Conf.</span></p>
+          <p><span class="key">teaches</span><span class="val">9 courses</span></p>
+          <p><span class="key">debates</span><span class="val">Champion · Coach · Mentor</span></p>
+          <p class="cursor-line"><span class="key">status</span><span class="val typing">building &amp; teaching<span class="caret"></span></span></p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <span class="arrow">↓</span>
+    </div>
+  </header>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section section-about">
+    <div class="section-num">01 / About</div>
+
+    <div class="about-grid">
+      <div class="about-headline">
+        <h2 class="display">
+          Three lives,<br/>
+          <em>one</em> mission —<br/>
+          <span class="highlight">make ideas land.</span>
+        </h2>
+      </div>
+
+      <div class="about-body">
+        <p class="lede">
+          I have spent the past decade in three distinct rooms: the lecture hall, the research lab, and the debate stage. Each one has taught me something the others could not.
+        </p>
+        <p>
+          From <strong>Notre Dame College</strong> to <strong>KUET</strong>, and now an <strong>MSc at BUET</strong>, my path through computer science has been guided by one question: how do we make complex things — cryptographic protocols, intrusion detection, the mathematics underneath them — feel learnable to the next person who needs them?
+        </p>
+        <p>
+          That question shapes everything. It is why I run an <a href="https://youtube.com/@abrarhasan4197" target="_blank" rel="noopener">educational YouTube channel</a>, why I led the <strong>KUET Debating Society</strong> as president, and why my classroom at Green University looks the way it does. Teaching is not a fallback from research — for me, it is research's most honest test.
+        </p>
+      </div>
+    </div>
+
+    <!-- Fun stats marquee -->
+    <div class="stats-strip" aria-label="By the numbers">
+      <div class="stat"><span class="stat-num" data-target="9">0</span><span class="stat-label">Courses Taught</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="364">0</span><span class="stat-label">Codeforces Solves</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Dean's Awards</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="2">0</span><span class="stat-label">Publications</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num" data-target="7" data-suffix=".0">0</span><span class="stat-label">IELTS Score</span></div>
+    </div>
+  </section>
+
+  <!-- ===================== RESEARCH / PUBLICATIONS ===================== -->
+  <section id="research" class="section section-research">
+    <div class="section-num">02 / Research</div>
+
+    <div class="section-head">
+      <h2 class="display">Published <em>work</em>.</h2>
+      <p class="section-sub">Peer-reviewed contributions to lightweight cryptography, IoT security, and intrusion detection.</p>
+    </div>
+
+    <div class="papers">
+      <article class="paper" tabindex="0">
+        <div class="paper-meta">
+          <span class="paper-tag tag-journal">Journal</span>
+          <span class="paper-year">2024</span>
+        </div>
+        <h3 class="paper-title">A Lightweight Cryptographic Framework Based on Hybrid Cellular Automata for IoT Applications</h3>
+        <p class="paper-venue">IEEE Access · Vol. 12 · pp. 192672–192688</p>
+        <p class="paper-authors"><strong>Abrar Hasan</strong>, M.M.A. Hashem</p>
+        <p class="paper-abstract">A novel cryptographic framework leveraging hybrid cellular automata to deliver strong security with minimal computational overhead — designed for resource-constrained IoT devices where traditional ciphers are too expensive.</p>
+        <div class="paper-actions">
+          <a class="paper-link" href="https://doi.org/10.1109/ACCESS.2024.3519673" target="_blank" rel="noopener">
+            <span>Read paper</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+          </a>
+          <span class="paper-doi">doi: 10.1109/ACCESS.2024.3519673</span>
+        </div>
+        <div class="paper-bg-num">01</div>
+      </article>
+
+      <article class="paper" tabindex="0">
+        <div class="paper-meta">
+          <span class="paper-tag tag-conf">Conference</span>
+          <span class="paper-year">2025</span>
+        </div>
+        <h3 class="paper-title">A Hybrid Deep Ensemble Framework for Intelligent Intrusion Detection and Classification in Data Center Environments</h3>
+        <p class="paper-venue">IEEE 7th International Conference on Sustainable Technologies for Industry 5.0 (STI)</p>
+        <p class="paper-authors">M. N. Pathan, A. Sultana, <strong>A. Hasan</strong>, M. D. Hossain, S. C. Das, M. Ashiqussalehin</p>
+        <p class="paper-abstract">A deep-learning ensemble that classifies network intrusions inside data center environments — combining multiple architectures to balance detection accuracy with operational deployability.</p>
+        <div class="paper-actions">
+          <a class="paper-link" href="https://doi.org/10.1109/STI69347.2025.11367527" target="_blank" rel="noopener">
+            <span>Read paper</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+          </a>
+          <span class="paper-doi">doi: 10.1109/STI69347.2025.11367527</span>
+        </div>
+        <div class="paper-bg-num">02</div>
+      </article>
+    </div>
+
+    <div class="service-strip">
+      <div class="service-label">Service to the Profession</div>
+      <div class="service-item">
+        <span class="service-role">Ad-hoc Reviewer</span>
+        <span class="service-org">IEEE Access</span>
+        <span class="service-date">Jan 2026 — Present</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TEACHING ===================== -->
+  <section id="teaching" class="section section-teaching">
+    <div class="section-num">03 / Teaching</div>
+
+    <div class="section-head">
+      <h2 class="display">Things I <em>teach</em>.</h2>
+      <p class="section-sub">Click any course to see what it is — across foundations, theory, and applied software engineering.</p>
+    </div>
+
+    <div class="course-grid" id="courseGrid">
+      <!-- Courses injected by JS -->
+    </div>
+
+    <div class="teaching-philosophy">
+      <div class="quote-mark">“</div>
+      <blockquote>
+        I do not want students to memorize my slides. I want them to argue with the ideas, build something with them, and explain them — in their own words — to someone who does not have a CS degree. If they can do that, the lesson worked.
+      </blockquote>
+      <cite>— Teaching philosophy</cite>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section section-projects">
+    <div class="section-num">04 / Projects</div>
+
+    <div class="section-head">
+      <h2 class="display">Things I have <em>built</em>.</h2>
+      <p class="section-sub">A sample of academic and side projects — apps, compilers, games, and embedded systems.</p>
+    </div>
+
+    <div class="project-list" id="projectList">
+      <!-- Projects injected by JS -->
+    </div>
+  </section>
+
+  <!-- ===================== AWARDS / TIMELINE ===================== -->
+  <section id="awards" class="section section-awards">
+    <div class="section-num">05 / Selected Recognition</div>
+
+    <div class="section-head">
+      <h2 class="display">A timeline of <em>wins</em>.</h2>
+      <p class="section-sub">Scholarships, debates, and academic distinctions, from school through university.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline-item">
+        <span class="timeline-year">2022</span>
+        <div class="timeline-body">
+          <h4>Dean's Award · KUET</h4>
+          <p>For excellent academic results, Faculty of EEE.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">2021</span>
+        <div class="timeline-body">
+          <h4>Dean's Award · KUET</h4>
+          <p>For excellent academic results, Faculty of EEE.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">2020</span>
+        <div class="timeline-body">
+          <h4>Dean's Award · KUET</h4>
+          <p>For excellent academic results, Faculty of EEE.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">2019</span>
+        <div class="timeline-body">
+          <h4>Champion · Freshers' League</h4>
+          <p>One of the most prestigious tournaments hosted by the KUET Debating Society.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">2018</span>
+        <div class="timeline-body">
+          <h4>Government Scholarship · HSC</h4>
+          <p>Awarded for excellent results in the Higher Secondary examination.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">2016</span>
+        <div class="timeline-body">
+          <h4>Talent-pool Scholarship · SSC</h4>
+          <p>Awarded for excellent results in the Secondary School Certificate examination.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">2015</span>
+        <div class="timeline-body">
+          <h4>Regional Champion · ACC Bangladesh Debate</h4>
+          <p>Anti-Corruption Commission's prestigious debate tournament — won representing Dinajpur Zila School Team 1.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-year">2015</span>
+        <div class="timeline-body">
+          <h4>Quarterfinalist · BTV Interschool Debate</h4>
+          <p>National-level debate competition broadcast on Bangladesh Television.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section section-contact">
+    <div class="section-num">06 / Contact</div>
+
+    <div class="contact-grid">
+      <div class="contact-headline">
+        <h2 class="display">
+          Let's <em>talk.</em>
+        </h2>
+        <p>Open to research collaboration, teaching opportunities, debate workshops, and PhD discussions. The best ways to reach me are below.</p>
+      </div>
+
+      <div class="contact-terminal">
+        <div class="card-header">
+          <span class="card-dot red"></span>
+          <span class="card-dot amber"></span>
+          <span class="card-dot green"></span>
+          <span class="card-title">~/abrar/contact</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> <span class="cmd">cat email.txt</span></p>
+          <a class="terminal-out link" href="mailto:abrarhasan1998@gmail.com">abrarhasan1998@gmail.com</a>
+
+          <p><span class="prompt">$</span> <span class="cmd">cat phone.txt</span></p>
+          <p class="terminal-out">+880 1403 061198</p>
+          <p class="terminal-out">+880 1521 584145 <span class="comment"># alt</span></p>
+
+          <p><span class="prompt">$</span> <span class="cmd">ls profiles/</span></p>
+          <p class="terminal-out">
+            <a class="link" href="https://github.com/abrarhasan3" target="_blank" rel="noopener">github</a> &nbsp;
+            <a class="link" href="https://linkedin.com/in/abrarhasan3/" target="_blank" rel="noopener">linkedin</a> &nbsp;
+            <a class="link" href="https://youtube.com/@abrarhasan4197" target="_blank" rel="noopener">youtube</a> &nbsp;
+            <a class="link" href="https://scholar.google.com/citations?user=PI5EbhcAAAAJ&hl=en" target="_blank" rel="noopener">scholar</a>
+          </p>
+
+          <p><span class="prompt">$</span> <span class="cmd">whereis office</span></p>
+          <p class="terminal-out">Dept. of Software Engineering, Green University of Bangladesh, Dhaka</p>
+
+          <p><span class="prompt">$</span> <span class="cursor-blink">_</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p class="footer-name">Abrar Hasan</p>
+        <p class="footer-tag">Lecturer · Researcher · Debater</p>
+      </div>
+      <p class="footer-meta">
+        Designed &amp; built with care · © <span id="year"></span> Abrar Hasan
+      </p>
+      <p class="footer-quote">"<em>The unexamined classroom is not worth teaching.</em>"</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
